@@ -41,7 +41,7 @@ var code = document.getElementById("code")
 code.onblur = function() {
     if (code.value !== "123456") {
         alert("验证码有误")
-        return
+        return;
     }
     total++;
 }

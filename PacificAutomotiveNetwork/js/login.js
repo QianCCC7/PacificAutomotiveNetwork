@@ -11,7 +11,7 @@ submit.onclick = function() {
         var res = confirm("登录成功，是否跳转到主页面？")
         if (res == true) {
             console.log(111)
-            location.href="../html/index.html"
+            location.href="../index.html"
         }
     } else {
         alert("账号或密码错误！")
