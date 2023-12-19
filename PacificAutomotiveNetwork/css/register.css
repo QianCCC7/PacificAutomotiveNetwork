@@ -1,0 +1,134 @@
+/* 注册新用户 */
+ .register {
+    margin-left: 180px;
+    margin-top: 23px;
+    height: 40px;
+    width: 1200px;
+    background-color: #ececec;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.registerOne {
+    margin-left: 500px;
+    font-size: 18px;
+}
+.registerTwo {
+    float: right;
+}
+.registerTwo a {
+    color: #c81623;
+}
+.registerTwo a:hover {
+    color: red;
+}
+
+/* 输入信息 */
+.main span {
+    float: right;
+    margin-right: 630px;
+    font-size: 14px;
+}
+.main span input{
+    width: 240px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #999;
+    padding-left: 10px;
+}
+.r_first{
+    margin-top: 55px;
+}
+.r_second,.r_third{
+    margin-top: 20px;
+}
+/* 安全程度 */
+.r_fourth{
+    margin-top: 10px;
+    height: 20px;
+    width: 175px;
+}
+.r_fourth>p {
+    float: left;
+    color: #b3b3b3;
+    font-size: 12px;
+    display: inline;
+}
+.main .r_fourth ul{
+    float: left;
+    margin-left: 10px;
+}
+.main .r_fourth ul li{
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+    height: 20px;
+    width: 34px;
+    font-size: 12px;
+    color: white;
+}
+.main .r_fourth .r_one{
+    background-color: #de1111;
+}
+.main .r_fourth .r_two{
+    background-color: #40b83f;
+}
+.main .r_fourth .r_three{
+    background-color: #f79100;
+}
+.main .r_fifth{
+    margin-top: 10px;
+}
+.main .r_sixth{
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+}
+.main .r_seventh{
+    margin-top: 10px;
+}
+.main .r_seventh input{
+    width: 16px;
+    height: 15px;
+    border: 1px solid #999;
+    vertical-align: middle;
+}
+.main .r_seventh a{
+    color: #1ba1e6;
+}
+/* 完成注册按钮 */
+.complete {
+    float: right;
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 663px;
+    color: #fff;
+    margin-top: 40px;   
+}
+#submie {
+    border: none;
+    background-color: #c81623;
+}
+.complete a{
+    color: #e2e2e2;
+    text-decoration: none;
+}
+.complete a:hover{
+    color: #fff;
+}
+
+/* 下面的横线 */
+.hx {
+    position: relative;
+    margin-top: 450px;
+}
+.hengxian{
+    position: absolute;
+    left: 180px;
+    width: 1200px;
+    height: 1px;
+    background-color: #dfdfdf;
+}

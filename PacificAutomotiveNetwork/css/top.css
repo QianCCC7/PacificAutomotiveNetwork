@@ -1,0 +1,95 @@
+/* 顶部 */
+.top {
+    width: 100%;
+    position: relative;
+    height: 28px;
+    float: left;
+    background-color: #f8f8f8;
+    font: 12px/28px "微软雅黑","宋体";
+    border-bottom: 1px solid #c9c6c6;
+}
+/* 顶部中间 */
+.topBox {
+    width: 1200px;
+    height: 28px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+/* 左边七个li开始 */
+.topBox .boxLeft li {
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 13px;
+    float: left;
+}
+.topBox .boxLeft li a{
+    position: relative;
+}
+/* 悬停变色 */
+.topBox .boxLeft li > a:hover {
+    color: #FF640A;
+}
+.topBox .boxLeft .boxLeft2 span a{
+    color: #aaa;
+}
+/* 悬停在切换时显示小手图标 */
+.topBox .boxLeft .boxLeft2 span a:hover {
+    cursor: pointer;
+}
+.topBox .boxLeft .boxLeft1 {
+    padding-right: 22px;
+}
+.topBox .boxLeft .boxLeft2 {
+    padding-right: 18px;
+}
+/* 太平洋右侧下箭头 */
+.topBox .boxLeft .boxLeft1 a::after {
+    font-family: icomoon;
+    position: absolute;
+    top: -5px;
+    content: '\e900';
+    color: #8f5050;
+}
+/* 左边七个li结束 */
+
+/* 中间七个li开始 */
+.topBox .boxMid li {
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    float: left;
+    padding-left: 17px;
+}
+
+.topBox .boxMid li a:hover {
+    color: #FF640A;
+}
+/* 中间七个li结束 */
+
+/* 右边注册登录开始 */
+.topBox .boxRight {
+    float: right;
+}
+.topBox .boxRight li{
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    float: left;
+    padding-left: 25px;
+}
+.topBox .boxRight li a{
+    position: relative;
+}
+.topBox .boxRight li a:hover{
+    color: #FF640A;
+}
+.topBox .boxRight .boxRight1 a::after{
+    font-family: icomoon;
+    position: absolute;
+    top: -5px;
+    content: '\e900';
+    color: #8f5050;
+}
+/* 右边注册登录结束 */

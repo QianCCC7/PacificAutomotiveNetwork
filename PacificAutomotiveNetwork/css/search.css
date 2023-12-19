@@ -1,0 +1,133 @@
+.search {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+}
+.search .searchBox {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+/* 表单 */
+.search .searchBox .searchForm {
+    position: relative;
+    float: left;
+    width: 787px;
+    height: 50px;
+}
+
+/* 输入框 */
+.search .searchBox .searchForm .searchInput {
+    position: relative;
+    float: left;
+    height: 50px;
+    border: 2px solid #ff640a;
+    background-color: #fff;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    width: 645px;
+}
+/* 前面的搜索logo */
+.search .searchBox .searchForm .searchInput::before {
+    content: '';
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 17px 10px 0;
+    background: url(../images/jlt1.png) no-repeat -98px -366px;
+}
+/* 表单大小 */
+.search .searchBox .searchForm .searchInput input{
+    float: left;
+    position: relative;
+    color: #bbb;
+    width: 567px;
+    height: 16px;
+    line-height: 16px;
+    padding: 17px 0;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+}
+/* 表单后面的logo */
+.search .searchBox .searchForm .searchInput span {
+    float: left;
+    width: 8px;
+    height: 6px;
+    margin: 19px 18px 0;
+}
+.search .searchBox .searchForm .searchInput span::after {
+    position: absolute;
+    font-family: icomoon;
+    top: 15px;
+    right: 12px;
+    content: '\e900';
+    font-size: 20px;
+    color: #FF6600;
+}
+/* 提交 */
+.search .searchBox .searchForm .inputSubmit {
+    cursor: pointer;
+    width: 140px;
+    height: 53px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fb6c19;
+    border: 0;
+    outline: 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: -2px;
+}
+.search .searchBox .searchForm .inputSubmit:hover {
+    background-color: #fc5c00;
+}
+/* 右边的5个a标签 */
+.search .searchBox .right{
+    margin-left: 19px;
+    float: left;
+    width: 394px;
+    height: 50px;
+}
+.search .searchBox .right a {
+    float: left;
+    margin-left: 20px;
+    width: 56px;
+    height: 100%;
+    font: 14px/1.75 Microsoft Yahei,arial,sans-serif;
+}
+.search .searchBox .right a:hover {
+    color: #FF6600;
+}
+.search .searchBox .right a::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+.search .searchBox .right .ra1::before{
+    background: url(../images/jlt1.png) no-repeat -88px -457px;
+}
+.search .searchBox .right .ra2{
+    width: 70px;
+}
+.search .searchBox .right .ra2::before{
+    background: url(../images/jlt1.png) no-repeat -88px -430px;
+}
+
+.search .searchBox .right .ra3::before{
+    background: url(../images/jlt1.png) no-repeat -88px -509px;
+}
+
+.search .searchBox .right .ra4::before{
+    background: url(../images/jlt1.png) no-repeat -88px -563px;
+}
+
+.search .searchBox .right .ra5::before{
+    background: url(../images/jlt1.png) no-repeat -88px -590px;
+}

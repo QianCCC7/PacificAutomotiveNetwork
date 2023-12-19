@@ -1,0 +1,145 @@
+/* div */
+.rightSide {
+    /* position: relative; */
+    position: fixed;
+    float: left;
+    right: 0;
+    width: 40px;
+    height: 721px;
+    background-color: #333;
+}
+/* 上面的ul */
+.rightSideTop {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+}
+/* li的下外边距 */
+.rightSideTopFirstItem {
+    margin-bottom: 10px;
+}
+/* a标签 */
+.rightSideTopFirstItem a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    transition: all .3s;
+}
+/* 所有a标签的图标 */
+.rightSideTopFirstItem a:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+}
+.rightSideTopFirstItem a:hover {
+    background-color: #FF6600;
+}
+/* 用户图标 A */
+.rightSideTopFirst a:before {
+    background: url(../images/jlt2.png) no-repeat 0 0;
+}
+/* 用户图标 B */
+.rightSideTopSecond a:before {
+    background: url(../images/jlt2.png) no-repeat 0 -23px;
+}
+/* 用户图标 C */
+.rightSideTopThird a:before {
+    background: url(../images/jlt2.png) no-repeat 0 -46px;
+}
+/* 用户图标 D */
+.rightSideTopFourth a:before {
+    background: url(../images/jlt2.png) no-repeat 0 -69px;
+}
+
+/* 下面部分 */
+.rightSideBottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+}
+/* 第一部分 */
+.rightSideBottom1 {
+    position: absolute;
+    top: 0;
+    height: 204px;
+    margin-bottom: 15px;
+}
+.rightSideBottom1FirstItem {
+    margin-bottom: 20px;
+}
+.rightSideBottom1FirstItem a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.rightSideBottom1First a img{
+    width: 100%;
+    height: 100%;
+}
+/* 第二部分 */
+.rightSideBottom2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+}
+.rightSideBottom2FirstItem a,button {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    transition: all .3s;
+}
+.rightSideBottom2FirstItem a:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    margin: 0px 0 0 -10px;
+}
+.rightSideBottom2FirstItem button:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    margin: 0px 0 0 -10px;
+}
+.rightSideBottom2FirstItem a:hover {
+    background-color: #FF6600;
+}
+.rightSideBottom2First a:before {
+    background: url(../images/jlt2.png) no-repeat 0 -92px;
+}
+.rightSideBottom2Second button:before {
+    background: url(../images/jlt2.png) no-repeat 0 -115px;
+}
+.rightSideBottom2Second button:hover {
+    cursor: pointer;
+    background-color: #FF6600;
+}
+.rightSideBottom2Third a:before {
+    background: url(../images/jlt2.png) no-repeat 0 -138px;
+}

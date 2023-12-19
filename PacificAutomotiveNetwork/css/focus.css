@@ -1,0 +1,229 @@
+.focus {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 657px;
+    padding-top: 25px;
+}
+.focusBox {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+/* 左边焦点 */
+.focusLeft {
+    float: left;
+    height: 100%;
+    width: 860px;
+    /* background-color: rgb(193, 193, 170); */
+}
+/* 上面的a标签 */
+.focusLeft .focusLeftA{
+    padding: 0 8px;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 700;
+}
+.focusLeft .focusLeftA a{
+    color: #f44;
+}
+.focusLeft .focusLeftA a::before{
+    content: '';
+    float: left;
+    margin-top: 2px;
+    margin-right: 18px;
+    width: 122px;
+    height: 28px;
+    background: url(../images/focus/focus.png) no-repeat;
+}
+/* 下面的热门栏目+li */
+.focusLeft .focusLeftBot {
+    width: 860px;
+    height: 598px;
+    margin-top: 25px;
+}
+/* 左边的图片 */
+.focusLeft .focusLeftBot .focusLeftBotLeft{
+    float: left;
+    width: 350px;
+    height: 100%;
+}
+.focusLeft .focusLeftBot .focusLeftBotLeft .focusLeftBotLeftTop {
+    width: 350px;
+    height: 47px;
+}
+.focusSpan{
+    display: inline-block;
+    width: 80px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 2px solid #0777dd;
+    line-height: 47px;
+    margin-top: -1px;
+}
+.focusLeft .focusLeftBot .focusLeftBotLeft .focusLeftBotLeftTop {
+    position: relative;
+}
+.focusLeft .focusLeftBot .focusLeftBotLeft .focusLeftBotLeftTop .focusUl {
+    position: absolute;
+    right: 0;
+    top: 33%;
+    width: 70px;
+    height: 18px;
+}
+.focusUl li{
+    float: left;
+    height: 24px;
+    margin-left: 2px;
+}
+.focusUl li:hover{
+    cursor: pointer;
+}
+.focusUl li span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: #d7d7d7;
+}
+.focusUl li:first-child span{
+    width: 30px;
+    background-color: #0777dd;
+}
+/* 下面的图片 */
+.focusLeftBotLeftImg ul{
+    width: 350px;
+    height: 420px;
+}
+.focusLeftBotLeftImg>ul>li:nth-child(2){
+    margin-top: 20px;
+}
+.focusLeftBotLeftImg2>ul {
+    height: 120px;
+}
+.focusLeftBotLeftImg ul li{
+    position: relative;
+}
+/* 图片内的文字 */
+.imgText {
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+.imgText a {
+    color: #fff;
+}
+.focusLeftBotLeftImg ul li:hover a{
+    color: #FF6600;
+}
+.focusLeftBotLeftImg2 ul{
+    margin-top: 20px;
+}
+/* 下面的三张图片 */
+.focusLeftBotLeftImg2 ul li {
+    position: relative;
+    float: left;
+    width: 96px;
+    height: 104px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 30px;
+}
+.focusLeftBotLeftImg2 ul li:nth-child(3) {
+    margin-right: 0;
+}
+/* 图片内的文字 */
+.imgText2{
+    margin-top: 6px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.focusLeftBotLeftImg2 ul li a img{
+    width: 64px;
+    height: 64px;
+}
+
+/* 右边的 li */
+.focusLeft .focusLeftBot .focusLeftBotRight{
+    float: right;
+    width: 483px;
+    height: 100%;
+    /* background-color: royalblue; */
+}
+.focusLeft .focusLeftBot .focusLeftBotRight ul {
+    margin-top: 20px;
+}
+.focusLeft .focusLeftBot .focusLeftBotRight ul li {
+    float: left;
+    height: 36px;
+}
+.focusLeft .focusLeftBot .focusLeftBotRight ul li span {
+    margin: 0px 3px 0 3px;
+    color: #ccc;
+}
+.focusLeft .focusLeftBot .focusLeftBotRight ul li a{
+    font-size: 16px;
+}
+
+
+/* 右边精彩推荐 */
+.focusRight {
+    float: right;
+    height: 100%;
+    width: 300px;
+}
+.focusRight .focusRightA {
+    width: 300px;
+    height: 46.8px;
+}
+.focus a:hover {
+    color: #FF6600;
+}
+/* 上面的 a标签 */
+.focusRight .focusRightA a:first-child{
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 2px solid #0777dd;
+    line-height: 44px;
+    margin-top: -1px;
+}
+.focusRight .focusRightA a:last-child{
+    float: right;
+    display: inline;
+    color: #999;
+    font-size: 14px;
+    height: 31px;
+    padding-top: 13px;
+    overflow: hidden;
+}
+/* 下面的 li */
+.focusRight .focusRightA a:last-child:hover{
+    color: red;
+}
+.focusRight .focusRightUl li{
+    position: relative;
+    height: 36px;
+    padding-left: 14px;
+    line-height: 36px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.focusRight .focusRightUl li::before{
+    content: '';
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    left: 0;
+    background-color: #d7d7d7;
+}

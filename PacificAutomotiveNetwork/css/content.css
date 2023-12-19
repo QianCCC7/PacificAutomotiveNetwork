@@ -1,0 +1,389 @@
+.chooseContent {
+    width: 100%;
+    height: 710px;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+}
+.chooseContent .firstBox {
+    position: relative;
+    width: 1200px;
+    height: 133px;
+    margin: 0 auto;
+}
+
+/* 选价格 */
+.chooseContent .firstBox .chosePrice{
+    width: 100%;
+    height: 27px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+.chooseContent .firstBox .chosePrice li{
+    height: 26px;
+    float: left;
+    font-size: 15px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    margin-right: 29px;
+    position: relative;
+}
+.chooseContent .firstBox .chosePrice li a:hover{
+    color: #0777dd;
+    font-weight: 700;
+    border-bottom: 2px solid #0777dd;
+    padding-bottom: 9px;
+    margin-bottom: -1px;
+}
+.chooseContent .firstBox .chosePrice .price1{
+    width: 64px;
+}
+.hover-effect {
+    color: #0777dd;
+    font-weight: 700;
+    border-bottom: 2px solid #0777dd;
+    padding-bottom: 9px;
+    margin-bottom: -1px;
+}
+.chooseContent .firstBox .chosePrice .price2{
+    width: 32px;
+}
+.chooseContent .firstBox .chosePrice .price3{
+    width: 32px;
+}
+.chooseContent .firstBox .chosePrice .price4{
+    width: 57px;
+}
+.chooseContent .firstBox .chosePrice .price5{
+    width: 51px;
+}
+.chooseContent .firstBox .chosePrice .price6{
+    width: 60.5px;
+}
+.chooseContent .firstBox .chosePrice .price7{
+    width: 60.5px;
+}
+.chooseContent .firstBox .chosePrice .price8{
+    width: 60.5px;
+}
+.chooseContent .firstBox .chosePrice .price9{
+    width: 67px;
+}
+.chooseContent .firstBox .chosePrice .price10{
+    width: 105px;
+}
+.chooseContent .firstBox .chosePrice .price10::before{
+    content: '';
+    display: inline-block;
+    vertical-align: -3px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../images/firstScreen_z_c6e9e08.png) -24px 0px no-repeat;
+}
+.chooseContent .firstBox .chosePrice .price11{
+    width: 64px;
+}
+.chooseContent .firstBox .chosePrice .price12{
+    width: 95px;
+}
+.chooseContent .firstBox .chosePrice .price12 img{
+    width: 45px;
+    height: 13px;
+}
+.chooseContent .firstBox .chosePrice .price13{
+    width: 64px;
+}
+
+/* 选车 */
+.chooseContent .firstBox .choseCar{
+    position: relative;
+    width: 100%;
+    height: 102px;
+    margin-top: 5px;
+}
+.chooseContent .firstBox .choseCar .choseCarBox{
+    position: relative;
+    width: 1120px;
+    height: 102px;
+    margin: 0 auto;
+}
+.chooseContent .firstBox .choseCar .choseCarBox .car{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 102px;
+    margin-right: 12px;
+    margin-top: -3px;
+    text-align: center;
+}
+.chooseContent .firstBox .choseCar .choseCarBox .car a img{
+    margin-top: 6px;
+    width: 88px;
+    height: 66px;
+}
+.chooseContent .firstBox .choseCar .choseCarBox .car a:hover{
+    color: #FF6600;
+}
+.chooseContent .firstBox .choseCar .choseCarBox .car5::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 35px;
+    background: url(../images/firstScreen_z_c6e9e08.png) no-repeat 0px -103px;
+}
+
+/* 左右两边的箭头 */
+.chooseContent .firstBox .direction button {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    width: 25px;
+    height: 48px;
+    background-color: #F2F2F2;
+    margin-top: -24px;
+    transition: background .3s;
+    border-radius: 4px;
+}
+.chooseContent .firstBox .direction .pre {
+    left: 0;
+}
+/* 悬停效果 */
+.chooseContent .firstBox .direction button:hover {
+    cursor: pointer;
+    background-color: #0777DD;
+    color: #fff;
+}
+.chooseContent .firstBox .direction button::before {
+    font-family: icomoon;
+    position: absolute;
+    font-size: 25px;
+    top: 12%;
+    left: 5%;
+    width: 8px;
+    height: 13px;
+    color: #ccc;
+}
+.chooseContent .firstBox .direction .pre::before {
+    content: '\e901';
+}
+.chooseContent .firstBox .direction .nxt::before {
+    content: '\e902';
+}
+
+/* 中间的图片 */
+.chooseContent .midImg{
+    width: 1200px;
+    height: 192px;
+    margin: 0 auto;
+}
+
+/* hot */
+/* hot左边 */
+.chooseContent .hot {
+    position: relative;
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.chooseContent .hot .left {
+    float: left;
+    width: 180px;
+    position: relative;
+    height: 350px;
+    margin-top: 8px;
+    border: 1px solid #eee;
+}
+/* top热门车系 */
+.chooseContent .hot .left .top{
+    position: absolute;
+    top: -9px;
+    left: 31px;
+    width: 116px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #0777dd;
+    font-size: 16px;
+    font-weight: 700;
+    border-width: 0;
+}
+/* .chooseContent .hot .left .top span{
+    display: inline-block;
+    padding: 0 15px;
+    background-color: #fff;
+} */
+/* hot汽车类型 */
+.chooseContent .hot .left .carType{
+    position: relative;
+    z-index: 101;
+    width: 100%;
+}
+.chooseContent .hot .left .carType .type:first-child{
+    margin-top: 16px;
+}
+.chooseContent .hot .left .carType .type{
+    position: relative;
+    float: left;
+    height: 48px;
+    width: 100%;
+}
+.chooseContent .hot .left .carType .type a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 178px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #fff;
+}
+.chooseContent .hot .left .carType .type a:hover{
+    color: #FF6600;
+}
+.chooseContent .hot .left .carType .type a::before{
+    content: '';
+    float: left;
+    width: 47px;
+    height: 25px;
+    margin: 10px 10px 0 15px;
+}
+.chooseContent .hot .left .carType .type a::after{
+    font-family: icomoon;
+    content: '\e902';
+    position: absolute;
+    top: 50%;
+    left: 155px;
+    width: 8px;
+    height: 13px;
+    font-size: 23px;
+    color: #DDDDDD;
+    margin-top: -20px;
+}
+.chooseContent .hot .left .carType .type1 a::before{
+    background: url(../images/hotCar/car-new-energy.png) no-repeat;
+    background-size: 100%;
+}
+.chooseContent .hot .left .carType .type2 a::before{
+    background: url(../images/hotCar/car-suv.png) no-repeat;
+    background-size: 100%;
+}
+.chooseContent .hot .left .carType .type3 a::before{
+    background: url(../images/hotCar/car.png) no-repeat;
+    background-size: 100%;
+}
+.chooseContent .hot .left .carType .type4 a::before{
+    background: url(../images/hotCar/car-mpv.png) no-repeat;
+    background-size: 100%;
+}
+.chooseContent .hot .left .carType .type5 a::before{
+    background: url(../images/hotCar/car-sport.png) no-repeat;
+    background-size: 100%;
+}
+.chooseContent .hot .left .carType .type6 a::before{
+    background: url(../images/hotCar/car-pickup.png) no-repeat;
+    background-size: 100%;
+}
+.chooseContent .hot .left .carType .type7 a::before{
+    background: url(../images/hotCar/car-recommand.png) no-repeat;
+    background-size: 100%;
+}
+/* hot右边的大盒子 */
+.chooseContent .hot .rightBox {
+    float: left;
+    position: relative;
+    height: 360px;
+    width: 1008px;
+    margin-left: 10px;
+}
+.chooseContent .hot .rightBox .leftFocus{
+    float: left;
+    width: 700px;
+    height: 360px;
+}
+.chooseContent .hot .rightBox .leftFocus a img{
+    width: 700px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* 右下角的四个li */
+.chooseContent .hot .rightBox .leftFocus .bottomLi {
+    position: absolute;
+    right: 317px;
+    bottom: 5px;
+    font-size: 0;
+    width: 126.4px;
+    height: 24px;
+}
+.chooseContent .hot .rightBox .leftFocus .bottomLi li{
+    float: left;
+    height: 24px;
+    margin-left: 8px;
+}
+/* li的形状 */
+.chooseContent .hot .rightBox .leftFocus .bottomLi li .btli{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.chooseContent .hot .rightBox .leftFocus .bottomLi ul li:hover{
+    cursor: pointer;
+}
+.chooseContent .hot .rightBox .leftFocus .bottomLi li:first-child span{
+    width: 40px;
+    background-color: #0777dd;
+}
+.chooseContent .hot .rightBox .rightFocus{
+    float: right;
+    width: 300px;
+    height: 360px;
+}
+.chooseContent .hot .rightBox .rightFocus li:nth-child(2){
+    margin-top: 6px;
+}
+/* 左右两边的导向图标 */
+.chooseContent .hot .rightBox .direction2{
+    position: relative;
+    top: 40%;
+}
+.chooseContent .hot .rightBox .direction2 ul li{
+    position: absolute;
+    width: 30px;
+    height: 65px;
+    border-radius: 3px;
+    background-color: black;
+    opacity: 0.5;
+}
+.chooseContent .hot .rightBox .direction2 .preli{
+    left: 0;
+}
+.chooseContent .hot .rightBox .direction2 .nxtli{
+    right: 0;
+}
+.chooseContent .hot .rightBox .direction2 ul li:hover{
+    opacity: 1;
+    background-color: #0777DD;
+}
+.chooseContent .hot .rightBox .direction2 a::before{
+    font-family: icomoon;
+    position: absolute;
+    top: 10%;
+    left: -35%;
+    width: 8px;
+    height: 13px;
+    color: #fff;
+    font-size: 53px;
+}
+.chooseContent .hot .rightBox .direction2 .pre2::before{
+    content: '\e901';
+}
+.chooseContent .hot .rightBox .direction2 .nxt2::before{
+    content: '\e902';
+}
+

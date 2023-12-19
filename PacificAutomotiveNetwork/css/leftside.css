@@ -1,0 +1,27 @@
+.leftSide {
+    position: fixed;
+    width: 80px;
+    height: 308px;
+    background-color: gray;
+    top: 170px;
+    left: 60px;
+    opacity: 0;
+    transition: linear 0.5s;
+}
+.leftSide a{
+    float: left;
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 16px;
+    background: #f7f7f7;
+}
+.leftSide a:nth-child(1) {
+    background: #ff640a;
+    color: #f7f7f7;
+}
+.leftSide a:hover{
+    background: #ff640a;
+    color: #f7f7f7;
+}

@@ -1,0 +1,131 @@
+/* 顶部透明导航开始 */
+.topNav {
+    position: relative;
+    z-index: 99;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    height: 80px;
+    width: 100%;
+}
+.topNavBox {
+    width: 1000px;
+    height: 100%;
+    line-height: 100%;
+    margin: 0 auto;
+}
+/* 左边的两张图片 */
+.topNav-left {
+    height: 52px;
+    width: 292px;
+    margin: 14px 0 0;
+    padding: 0px;
+    float: left;
+    background: url(../images/client/logonew.png) no-repeat center top;
+}
+.topNav-left a{
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+.topNav-left .topNav-left-logo {
+    height: 53px;
+    width: 152px;
+}
+.topNav-left .topNav-left-app {
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-top: 13px;
+    width: 100px;   
+}
+/* 右边的客户端文字 */
+.topNav-right {
+    float: right;
+    font-size: 16px;
+    padding-top: 19px;
+    width: 695px
+}
+.topNav-right li {
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 12px;
+}
+.topNav-right li a{
+    display: block;
+}
+.topNav-right li .khd{
+    color: #f90;
+    border-bottom: 3px #f90 solid;
+}
+.topNav-right li a:hover{
+    color: #f90;
+    border-bottom: 3px #f90 solid;
+}
+body {
+    background-image: url(../images/client/bg.png);
+}
+/* 顶部透明导航结束 */
+
+/* 大图片开始 */
+.bigImg {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 615px;
+}
+.bigImgBox {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+.bigImgBox .leftImg{
+    position: relative;
+    float: left;
+    left: 0;
+    width: 511px;
+    height: 149px;
+    background: url(../images/client/p0-2.png) no-repeat center top;
+}
+.bigImgBox .leftImg-bot {
+    margin-top: 100px;
+}
+.bigImgBox .leftImg-bot dl {
+    clear: both;
+    height: 180px;
+    width: 509px;
+    padding-top: 40px;
+}
+.bigImgBox .leftImg-bot dt {
+    float: left;
+    width: 180px;
+    height: 180px;
+    background: #fff;
+}
+.bigImgBox .leftImg-bot dt img{
+    width: 100%;
+}
+.bigImgBox .leftImg-bot dd{
+    float: right;
+    width: 311px;
+    height: 164px;
+    margin-top: 8px;
+    background: url(../images/client/p0-1.png) no-repeat 0 0;
+    overflow: hidden;
+}
+.bigImgBox .leftImg-bot dd a{ 
+    display: block;
+    width: 311px;
+    height: 69px;
+    float: left;
+    margin-bottom: 27px;
+}
+
+.bigImgBox .rightImg{
+    position: relative;
+    float: right;
+    top: -400px;
+    width: auto;
+    height: 84%;
+}
+/* 大图片结束 */

@@ -1,0 +1,130 @@
+.banner {
+    width: 100%;
+    height: 90px;
+    /* background-color: aqua; */
+    position: relative;
+    float: left;
+}
+.bannerBox {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+/* 盒子共有的浮动以及高度 */
+.bannerBox .common {
+    float: left;
+    height: 60px;
+    margin-top: 15px;
+    padding: 0 16px;
+}
+/* 共有的before伪元素位置 */
+.bannerBox span{
+    float: left;
+}
+.bannerBox span::before{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    margin-bottom: 3px;
+}
+.bannerBox span {
+    text-align: center;
+    font-weight: 800;
+}
+
+/* 共有的 a标签的位置 */
+.bannerBox .content{
+    margin-left: 48px;
+    margin-right: -8px;
+    height: 18px;
+    line-height: 16px;
+    white-space: nowrap;
+    margin-top: 8px;
+}
+.bannerBox span a:hover {
+    text-decoration: underline;
+}
+.bannerBox .content a:hover {
+    color: #FF6600;
+}
+
+/* 左边logo开始 */
+.bannerBox .logo {
+    position: relative;
+    float: left;
+    width: 184px;
+    height: 90px;
+    margin-right: 19px;
+}
+.bannerBox .logo img {
+    margin-top: 19px;
+}
+/* 左边logo结束 */
+
+/* 左边选车开始 */
+.bannerBox .one {
+    width: 200px;
+    /* background-color: blue; */
+}
+.bannerBox .one span::before{
+    background: url(../images/jlt1.png) no-repeat -80px -148px;
+}
+/* 左边选车结束 */
+
+/* 左边买车开始 */
+.bannerBox .two {
+    width: 160px;
+    /* background-color: yellow; */
+}
+.bannerBox .two span::before{
+    background: url(../images/jlt1.png) no-repeat -80px -183px;
+}
+/* 左边买车结束 */
+
+/* 左边养车开始 */
+.bannerBox .three {
+   width: 115px;
+    /* background-color: red; */
+}
+.bannerBox .three span::before{
+    background: url(../images/jlt1.png) no-repeat -80px -218px;
+}
+/* 左边养车结束 */
+
+/* 左边精选开始 */
+.bannerBox .four {
+    width: 140px;
+    /* background-color: gray; */
+}
+.bannerBox .four span::before{
+    background: url(../images/jlt1.png) no-repeat -80px -253px;
+}
+/* 左边精选结束 */
+
+/* 左边摩托开始 */
+.bannerBox .five {
+    width: 80px;
+    /* background-color: green; */
+}
+.bannerBox .five span::before{
+    background: url(../images/jlt1.png) no-repeat -80px -323px;
+}
+/* 左边摩托结束 */
+
+/* 左边论坛开始 */
+.bannerBox .six {
+    width: 110px;
+    /* background-color: pink; */
+}
+.bannerBox .six span::before{
+    background: url(../images/jlt1.png) no-repeat -80px -288px;
+}
+.bannerBox .six .content2 a::after{
+    font-family: icomoon;
+    content: '\e900';
+    color: #FF6600;
+}
+/* 左边论坛结束 */

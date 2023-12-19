@@ -1,0 +1,31 @@
+/* 混动时代大图片 */
+.midImg {
+    float: left;
+    width: 100%;
+    height: 296px;
+    background-image: url(../images/time/6765034.jpg) ;
+    background-size: 100%;
+}
+
+/* 中间视频开始 */
+.midVideo {
+    float: left;
+    width: 100%;
+    height: 746px;
+    background-color: #104E7B;
+}
+.voiderWrapper {
+    width: 1126px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(../images/time/videoWrapper.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+video {
+    width: 100%;
+    height: 100%;
+}
+/* 中间视频结束 */
+
+
